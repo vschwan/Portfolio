@@ -16,7 +16,7 @@ body {
     
 }
 span{
-  font-size: 15px;
+  font-size: 35px;
 }
 
 h1 {
@@ -28,7 +28,7 @@ h1 {
 #dateien{
     padding: 10px;
     margin: 10px;
-    font-size: 12px;
+    font-size: 15px;
    text-decoration: none;
    text-shadow: none;
   }
