@@ -1,0 +1,91 @@
+header{
+    font-size: 10px;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px rgb(255, 0, 140);
+}
+
+body {
+    background-color: black;
+    background: url(./githubbilder/Bilder/backgroundpic.png)  center no-repeat   , url(./githubbilder/Bilder/seamless-vertical-simple-gray-brick-blocks-wall-background_25920-1319.jpg)left top repeat;
+    background-size: contain, auto;
+  font-size: 15px;
+    margin: auto;
+    font-family: sans-serif;
+    text-align: center;
+    
+}
+
+h1 {
+    color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px  rgb(255, 0, 140);
+}
+h2{
+    font-size: medium;
+    text-shadow: 2px 2px 2px  rgb(255, 0, 140);
+}
+
+a{
+     color: hsl(0, 5%, 23%);
+}
+a:hover{
+   color: rgb(146, 49, 86);
+}
+
+#mail a{
+    opacity: 1.0;
+    color: rgb(102, 96, 96);
+    font-size: 5px;
+}
+#mail a:hover {
+   opacity: 0.7;
+}
+
+#backgroundpic{
+    position: relative;
+}
+.img {
+    width: initial;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    flex: 33.33%;
+    display: inherit;
+  
+  }
+
+  .img2{
+    width: initial;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    flex: 33.33%;
+    display: inherit; 
+  }
+
+  .img2 img:hover{
+    opacity: 0.7;
+  }
+
+  .img img:hover{
+      opacity: 0.7;
+  }
+  
+.container {
+    padding: 10px;
+    display: flex;
+   align-items: end;
+
+   
+  }
+  div.desc {
+    padding: 10px;
+    text-align: center;
+    color: hsl(0, 2%, 23%);
+ 
+    
+  }
+  
+* {
+    box-sizing: border-box;
+  }
+
+  
+  

@@ -1,0 +1,75 @@
+
+body{
+   background-color: black;
+}
+
+#container{
+  
+   top: 50%;
+   left: 50%;
+   max-width: 474px;
+   margin: auto;
+
+}
+
+#container>div{
+   float: left;
+   margin: 3px;
+   width: 150px;
+   height: 150px;
+   border-radius: 7px;
+   border: solid 1px #b9b9b9;
+}
+
+
+#snare, #cick, #hihat{
+   background-image: linear-gradient(rgb(98, 216, 255), blue);
+}
+
+#snare:hover{
+   background-image: linear-gradient(blue, rgb(98, 216, 255));
+}
+#hihat:hover{
+   background-image: linear-gradient(blue, rgb(98, 216, 255));
+}
+#cick:hover{
+   background-image: linear-gradient(blue, rgb(98, 216, 255));
+}
+
+
+
+
+#aaa, #ccc, #fff, #ggg{
+   background-image: linear-gradient(rgb(253, 137, 156), rgb(240, 22, 58));
+}
+#aaa:hover{
+   background-image: linear-gradient(rgb(240, 22, 58), rgb(253, 137, 156));
+}
+#ccc:hover{
+   background-image: linear-gradient(rgb(240, 22, 58), rgb(253, 137, 156));
+}
+#fff:hover{
+   background-image: linear-gradient(rgb(240, 22, 58), rgb(253, 137, 156));
+}
+#ggg:hover{
+   background-image: linear-gradient(rgb(240, 22, 58), rgb(253, 137, 156));
+}
+
+
+#laugh1, #laugh2{
+   background-image: linear-gradient(rgb(253, 182, 89), rgb(255, 166, 0));
+}
+#laugh1:hover{
+   background-image: linear-gradient(rgb(255, 166, 0), rgb(253, 182, 89));
+}
+#laugh2:hover{
+   background-image: linear-gradient(rgb(255, 166, 0), rgb(253, 182, 89));
+}
+
+#playb{
+   position: relative;
+   left:35%;
+}
+
+
+

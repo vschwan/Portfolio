@@ -1,0 +1,138 @@
+
+
+    body{
+    position: relative;
+    margin:0;
+    height: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+        
+            .container{
+            height: 40%;
+            transform: translate(-50%, -50%);
+            position: absolute;
+            left: 50%;
+            top:40%; 
+            max-width: 600px;
+            }
+
+@media (max-width:700px){
+    .container{
+    width:100%;
+            }
+        }
+
+        .innercontainer{
+            position: relative;
+        }
+
+        .innercontainer > img{
+        width: auto;
+        height: 100%;
+        transform: translateX(-50%);
+        left: 50%;
+        position: relative;
+        }
+
+
+
+@media (max-width:700px){
+    .frage{
+        background-size: 100% 100%;
+        
+        
+    }
+}
+
+.frage{
+    background-image: url(./images/question.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.frage > p {
+    padding: 40px 0;
+    color: white;
+    position: relative;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+
+
+
+@media (max-width:700px){
+    .icons{
+       position: absolute;
+       bottom: 105%;
+       left:40%;
+      
+    }
+}
+
+.icons{
+    position: absolute;
+    bottom: 105%;
+    left:40%;
+   
+ }
+
+
+
+.fragenblock{
+        position: absolute;
+        bottom: 70px;
+        width: 100%;
+    }
+
+
+
+@media (max-width:700px){
+    .fragenblock{
+        position: absolute;
+        bottom: 70px;
+        width: 100%;
+    }
+}
+
+@media (max-width:700px){
+    .answer{
+        background-size: 100% 100%;
+    }
+}
+
+.answer{
+    background-image: url(./images/answer.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.answer:hover{
+    background-image: url(./images/answer_over.png);
+}
+
+.answer>p{
+    padding: 20px 0;
+    color: white;
+    position: relative;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+    a{
+        text-decoration: none;
+    }
+
+
+

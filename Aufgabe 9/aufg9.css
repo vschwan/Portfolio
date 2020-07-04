@@ -1,0 +1,21 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css");
+
+body{
+    
+}
+#container{
+}
+
+
+.fa-circle{
+color: grey;
+}
+
+.fa-trash-alt{
+    color: grey;
+}
+
+.fa-trash-alt:hover{
+    transform: perspective(1px) translateZ(0);
+    color: darkgrey;
+}
