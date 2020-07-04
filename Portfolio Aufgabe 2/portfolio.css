@@ -1,7 +1,7 @@
 header{
     font-size: 10px;
     font-weight: bold;
-    text-shadow: 2px 2px 2px rgb(255, 0, 140);
+    text-shadow: 2px 2px 2px rgb(155, 17, 93);
 }
 
 body {
@@ -19,11 +19,11 @@ h1 {
     color: black;
     font-family: sans-serif;
     font-weight: bold;
-    text-shadow: 2px 2px 2px  rgb(255, 0, 140);
+    text-shadow: 2px 2px 2px  rgb(155, 17, 93);
 }
 h2{
     font-size: medium;
-    text-shadow: 2px 2px 2px  rgb(255, 0, 140);
+    text-shadow: 2px 2px 2px  rgb(155, 17, 93);
 }
 
 a{
