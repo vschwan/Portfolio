@@ -7,6 +7,7 @@ header{
 body {
     background-color: black;
     background: url(./githubbilder/Bilder/backgroundpic.png)  center no-repeat   , url(./githubbilder/Bilder/seamless-vertical-simple-gray-brick-blocks-wall-background_25920-1319.jpg)left top repeat;
+  
     background-size: contain, auto;
   font-size: 15px;
     margin: auto;
@@ -78,7 +79,7 @@ a:hover{
   div.desc {
     padding: 10px;
     text-align: center;
-    color: hsl(0, 2%, 23%);
+    color: hsl(0, 2%, 12%);
  
     
   }
