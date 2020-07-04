@@ -9,11 +9,14 @@ body {
     background: url(./githubbilder/Bilder/backgroundpic.png)  center no-repeat   , url(./githubbilder/Bilder/seamless-vertical-simple-gray-brick-blocks-wall-background_25920-1319.jpg)left top repeat;
   
     background-size: contain, auto;
-  font-size: 15px;
+  font-size: 13px;
     margin: auto;
     font-family: sans-serif;
     text-align: center;
     
+}
+span{
+  font-size: 10px;
 }
 
 h1 {
@@ -22,8 +25,21 @@ h1 {
     font-weight: bold;
     text-shadow: 2px 2px 2px  rgb(155, 17, 93);
 }
+#dateien{
+    padding: 10px;
+    margin: 10px;
+    font-size: 12px;
+   text-decoration: none;
+   text-shadow: none;
+  }
+
+  #dateien:hover{
+    color: hsl(338, 42%, 72%);
+  }
+  
+  
 h2{
-    font-size: medium;
+    font-size: 30px;
     text-shadow: 2px 2px 2px  rgb(155, 17, 93);
 }
 
@@ -88,5 +104,4 @@ a:hover{
     box-sizing: border-box;
   }
 
-  
   
