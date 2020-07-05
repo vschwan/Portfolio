@@ -143,7 +143,7 @@ a:hover{
     left: 0;
     z-index: 99;
     }
-    
+
     .card:hover .sw {
     display: inline;
     }
@@ -183,7 +183,7 @@ a:hover{
       background-color: black;
       background: url(./githubbilder/Bilder/backgroundpic-min.png)center center no-repeat   , url(./githubbilder/Bilder/seamless-vertical-simple-gray-brick-blocks-wall-background_25920-1319.jpg)left top repeat;
       background-attachment: fixed;
-      background-size: cover, auto;
+      background-size: contain, auto;
     font-size: 20px;
       margin: 0 auto;
       font-family: sans-serif;
