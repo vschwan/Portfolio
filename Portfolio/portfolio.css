@@ -1,3 +1,5 @@
+@media only screen and (min-width: 430px) {
+
 header{
     font-size: 15px;
     font-weight: bold;
@@ -6,15 +8,19 @@ header{
 
 body {
     background-color: black;
-    background: url(./githubbilder/Bilder/backgroundpic.png)  center no-repeat   , url(./githubbilder/Bilder/seamless-vertical-simple-gray-brick-blocks-wall-background_25920-1319.jpg)left top repeat;
-  
-    background-size: contain, auto;
+    background: url(./githubbilder/Bilder/backgroundpic-min.png)center center no-repeat   , url(./githubbilder/Bilder/seamless-vertical-simple-gray-brick-blocks-wall-background_25920-1319.jpg)left top repeat;
+    background-attachment: fixed;
+    background-size: cover, auto;
   font-size: 20px;
     margin: auto;
     font-family: sans-serif;
     text-align: center;
     
+    
 }
+
+
+
 span{
   font-size: 15px;
 }
@@ -90,6 +96,7 @@ a:hover{
     padding: 10px;
     display: flex;
    align-items: end;
+   
 
    
   }
@@ -107,3 +114,132 @@ a:hover{
   }
 
   
+}
+
+@media only screen and (max-width: 430px) {
+  
+    .img {
+      width: initial;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      flex: 33.33%;
+      display:flex;
+    
+    }
+
+    
+    .img2{
+      width: initial;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      flex: 33.33%;
+      display: flex; 
+    }
+    .container {
+      padding: 10px;
+      display: contents;
+     align-items: end;
+     transform: translate(-50%, -50%);
+     position: absolute;
+     
+     
+    }
+
+    header{
+      font-size: 15px;
+      font-weight: bold;
+      text-shadow: 2px 2px 2px rgb(155, 17, 93);
+  }
+  
+  body {
+      background-color: black;
+      background: url(./githubbilder/Bilder/backgroundpic-min.png)center center no-repeat   , url(./githubbilder/Bilder/seamless-vertical-simple-gray-brick-blocks-wall-background_25920-1319.jpg)left top repeat;
+      background-attachment: fixed;
+      background-size: cover, auto;
+    font-size: 20px;
+      margin: 0 auto;
+      font-family: sans-serif;
+      text-align: center;
+      position: relative;
+      
+  }
+  
+  
+  
+  span{
+    font-size: 15px;
+  }
+  
+  h1 {
+      color: black;
+      font-family: sans-serif;
+      font-weight: bold;
+      font-size: 35px;
+      text-shadow: 2px 2px 2px  rgb(155, 17, 93);
+  }
+  #dateien{
+      padding: 10px;
+      margin: 10px;
+      font-size: 15px;
+     text-decoration: none;
+     text-shadow: none;
+    }
+  
+    #dateien:hover{
+      color: hsl(338, 42%, 72%);
+    }
+    
+    
+  h2{
+      font-size: 30px;
+      text-shadow: 2px 2px 2px  rgb(155, 17, 93);
+  }
+  
+  a{
+       color: hsl(0, 5%, 23%);
+  }
+  a:hover{
+     color: rgb(146, 49, 86);
+  }
+  
+  #mail a{
+      opacity: 1.0;
+      color: rgb(102, 96, 96);
+      font-size: 5px;
+  }
+  #mail a:hover {
+     opacity: 0.7;
+  }
+  
+  #backgroundpic{
+      position: relative;
+  }
+
+  
+    .img2 img:hover{
+      opacity: 0.7;
+    }
+  
+    .img img:hover{
+        opacity: 0.7;
+    }
+    
+ 
+    div.desc {
+  
+      padding: 10px;
+      text-align: center;
+      color: hsl(0, 2%, 12%);
+   
+      
+    }
+    
+  * {
+      box-sizing: border-box;
+    }
+  
+
+ }
+
+
+
+
+
