@@ -14,12 +14,8 @@ body {
   font-size: 20px;
     margin: auto;
     font-family: sans-serif;
-    text-align: center;
-    
-    
+    text-align: center;   
 }
-
-
 
 span{
   font-size: 15px;
@@ -135,21 +131,22 @@ a:hover{
 @media only screen and (max-width: 430px) {
   
   
-  .card {
-  
+    .card {
     position: relative;
     display: inline-block;
-}
-.card .sw {
+    }
+
+    .card .sw {
     display: none;
     position: absolute;
     top: 0;
     left: 0;
     z-index: 99;
-}
-.card:hover .sw {
+    }
+    
+    .card:hover .sw {
     display: inline;
-}
+    }
 
     .img {
       width: initial;
