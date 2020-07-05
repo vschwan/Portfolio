@@ -10,7 +10,7 @@ body {
     background-color: black;
     background: url(./githubbilder/Bilder/backgroundpic-min.png)center center no-repeat   , url(./githubbilder/Bilder/seamless-vertical-simple-gray-brick-blocks-wall-background_25920-1319.jpg)left top repeat;
     background-attachment: fixed;
-    background-size: auto, auto;
+    background-size: contain, auto;
   font-size: 20px;
     margin: auto;
     font-family: sans-serif;
