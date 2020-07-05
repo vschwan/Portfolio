@@ -1,5 +1,5 @@
 header{
-    font-size: 10px;
+    font-size: 15px;
     font-weight: bold;
     text-shadow: 2px 2px 2px rgb(155, 17, 93);
 }
@@ -16,7 +16,7 @@ body {
     
 }
 span{
-  font-size: 35px;
+  font-size: 15px;
 }
 
 h1 {
@@ -94,6 +94,7 @@ a:hover{
    
   }
   div.desc {
+
     padding: 10px;
     text-align: center;
     color: hsl(0, 2%, 12%);
