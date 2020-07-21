@@ -70,6 +70,12 @@ a:hover{
 #mail a:hover {
    opacity: 0.7;
 }
+#github{
+  opacity: 1.0;
+}
+  #github:hover{
+    opacity: 0.7;
+  }
 
 #backgroundpic{
     position: relative;
@@ -246,6 +252,12 @@ a:hover{
   }
   #mail a:hover {
      opacity: 0.7;
+  }
+#github{
+  opacity: 1.0;
+}
+  #github:hover{
+    opacity: 0.7;
   }
   
   #backgroundpic{
